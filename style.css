@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Roboto&family=Roboto+Mono&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+   font-family: 'Poppins', sans-serif;
+}
+
+.ball {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position: absolute;
+   top: 50px;
+   left: 0px;
+}
+
+.info {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 400px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   border-radius: 5px;
+   padding: 20px;
+}
+
+.info h2 {
+   text-align: center;
+}
+
+.info ul {
+   margin-top: 20px;
+   margin-left: 15px;
+}
+
+.info h2, .info ul li {
+   color: rgb(151, 151, 151);
+   font-style: italic;
+   margin-bottom: 5px;
+}
+
